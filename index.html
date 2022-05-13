@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookselfs Apps</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header id="HEADER">
+      
+        <div class="jumbotron">
+          <img src="assets/img/download.jpeg" alt="" />
+          <h1>Bookselfs Apps</h1>
+        </div>
+
+        <nav id="">
+          <ul>
+            <li><a href="#NEW">ADD BOOK</a></li>
+            <li><a href="#SEARCH">SEARCH</a></li>
+            <li><a href="#BEFORE">ON GOING</a></li>
+            <li><a href="#AFTER">LAST READ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+    <main>
+        <div id="NEW" class="container">
+            <form id="add" class="addbook">
+                <td>
+                <h2>Masukkan List Nama Buku</h2>
+                <div class="add">
+                    <tr>
+                     <P>JUDUL BUKU:</P>  
+                      <input type="text" id="judul" placeholder="Masukkan Judul" >
+                    </tr>
+                  </div> 
+            
+                  <div class="add">
+                    <tr>
+                      <p>NAMA PENULIS :</p>
+                      <input type="text" id="nama" placeholder="Masukkan Penulis" >
+                    </tr>
+                  </div>
+            
+                  
+                  <div class="add">
+                    <tr>
+                      <p>TAHUN RILIS BUKU :</p>
+                      <input type="text" id="tahun" placeholder="Masukkan Tahun" >
+                    </tr>
+                  </div>
+            
+                  <div class="add">
+                    <tr>
+                      <label for="check"> 
+                      <input type="checkbox" name="check" id="sudahbelum" value="yes">
+                      APAKAH BUKU SUDAH DIBACA?
+                    </label>
+                    </tr>
+                  </div>
+
+
+                  <!-- <input id="inputBookIsComplete" type="checkbox">  -->
+
+                  <div class="tombol" >
+                    <input type="submit" id="tombol" value="ADD ON LIST" />
+                  </div>
+              </td>
+            </form>
+        </div>
+           
+            <div class="container">
+                <div id="SEARCH" class="search">
+                    <h2>SEARCH ON BOOK LIST</h2>
+                    <form id="searchBook">
+                        <label for="searchText">
+                            <p>Masukkan Nama Judul Buku</p>
+                        </label>
+                        <input id="searchText" type="text">
+                        <button id="searchSubmit" type="submit">Cari</button>
+                    </form>
+            </div>
+            </div>
+
+            <div class="container-display">
+                <div class="ongoing">
+                    <h2> DAFTAR BUKU BELUM DIBACA</h2>
+                        <img src="assets/img/baca buku.jpeg" alt="">
+                </div>
+                <div class="ongoing" id="BEFORE">
+                </div>
+            </div>
+
+
+            <div class="container-display">
+                
+                <div class="lastread" id="AFTER">
+                </div>
+                <div class="lastread">
+                    <h2> DAFTAR BUKU SUDAH TERBACA</h2>
+                    <img src="assets/img/buku tumpuk.png" alt="">
+
+                </div>
+            </div>
+
+        
+    </main>
+
+    <script src="js/dom.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/data.js"></script>
+  </body>
+</html>

@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: inline;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 50px;
+  height: 650px;
+  color: black;
+}
+.jumbotron {
+  width: 100%;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 60px;
+  color: #005f73;
+  text-align: center;
+}
+.jumbotron > h1 {
+  padding-top: 20px;
+}
+nav {
+  padding: 0px;
+  margin-top: 400px;
+  top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin: 10px;
+  margin-bottom: 0px;
+}
+nav a {
+  font-size: 25px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #005f73;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+#container {
+  float: left;
+  width: 75%;
+  text-align: center;
+}
+.addbook {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 70px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: #d8e2dc;
+  color: #005f73;
+  height: 600px;
+}
+label {
+  display: inline;
+}
+.add {
+  padding-top: 30px;
+  text-align: center;
+  padding: 20px;
+  margin-left: 30px;
+  color: black;
+}
+.add > h2 {
+  padding-bottom: 100px;
+}
+.add input[type="text"] {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  background-color: white;
+  height: 40px;
+  width: 300px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.tombol {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.tombol input {
+  color: white;
+  font-size: 15px;
+  background-color: black;
+  height: 40px;
+  width: 150px;
+  border-radius: 25px;
+}
+.search {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 80px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: #cad2c5;
+}
+.search p {
+  padding-bottom: 30px;
+}
+.search > form > input {
+  padding: 10px;
+  border-radius: 25px;
+  width: 300px;
+}
+.search > form > button {
+  border-radius: 25px;
+  padding: 8px;
+  width: 60px;
+}
+.ongoing {
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: left;
+  height: 600px;
+  color: #414535;
+  flex-basis: 50%;
+}
+.ongoing img {
+  width: 400px;
+}
+.lastread {
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: right;
+  height: 600px;
+  color: #354f52;
+  flex-basis: 50%;
+}
+.lastread img {
+  width: 400px;
+}
+.container-display {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+button {
+  border-radius: 25px;
+  height: 35px;
+  width: 100px;
+  background-color: #264653;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.hidden {
+  display: none;
+}
